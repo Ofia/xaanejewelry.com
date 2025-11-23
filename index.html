@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XAANE - Luxury jewelry born in the stars. Made to match your beauty.">
+    <title>XAANE - Luxury Jewelry</title>
+    <link rel="stylesheet" href="css/styles.css?v=11">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">XAANÉ</a>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="cart-link" id="cartLink">
+                            Cart <span class="cart-count" id="cartCount">0</span>
+                        </a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Banner / Hero Section -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <img src="Assets/Banners/Website Bannerd Born in the stars.png" alt="Born In The Stars - Made to match your beauty">
+        </div>
+    </section>
+
+    <!-- Content sections will be added here -->
+    <main class="main-content">
+        <!-- NEW COLLECTION Section -->
+        <section class="split-section">
+            <div class="split-section-image">
+                <img src="Assets/My Renders/B001/Rubi_001_1.png" alt="Ruby and Diamond Collection Bracelet">
+            </div>
+            <div class="split-section-content">
+                <div class="split-section-text">
+                    <h2 class="section-title">NEW<br>COLLECTION</h2>
+                    <p class="section-description">Rock and earth, time and ancient cultures — these are the inspirations behind this collection. Each piece is made in the highest quality gold and with the finest gemstones.</p>
+                    <a href="shop.html" class="btn-primary">Shop</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nature Refined Section -->
+        <section class="split-section split-section-grey">
+            <div class="split-section-content">
+                <div class="split-section-text">
+                    <h2 class="section-title">NATURRE REFINED</h2>
+                    <p class="section-description">These rocky textures are real. From all over the world, we sample nature's designs and imprint them onto our jewelry. Just as gems are naturally found in a matrix, we set them back into a matrix of gold.</p>
+                    <a href="shop.html" class="btn-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="split-section-image">
+                <img src="Assets/Dark pairs/R5 R6 Te'petl and Pinku.jpeg" alt="Nature Refined Textured Rings">
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="content-banner">
+            <img src="Assets/Banners/banner rings.png" alt="XAANE Rings Collection">
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact-section">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="contact-title">Contact Us</h2>
+                    <p class="contact-description">Interested in a custom design? Fill out some info and we will be in touch shortly. We can't wait to hear from you!</p>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/mqajnnog" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email (required)</label>
+                            <input type="email" id="email" name="_replyto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (required)</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New contact from XAANÉ website">
+                        <button type="submit" class="btn-submit">Send</button>
+                    </form>
+                    <div id="formStatus" style="display: none; margin-top: 20px; padding: 15px; border-radius: 8px; color: white;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 XAANÉ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
